@@ -2,7 +2,7 @@ import streamlit as st
 import psycopg2
 import pandas as pd
 from langchain_openai import OpenAIEmbeddings
-openai = OpenAIEmbeddings(openai_api_key="sk-CCVw6F3ZS5nAlhij7fjatY60vjE9D-xPeguLst36-nT3BlbkFJIdPGlqSiaziy8gf2OWQ0GnDpU-rd5nvzxFSYDh3VMA")
+openai = OpenAIEmbeddings(openai_api_key="sk-<Your Open AI Key>")
 from dotenv import load_dotenv
 import numpy as np
 from langchain.schema import Document
